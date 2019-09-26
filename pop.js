@@ -167,9 +167,6 @@ AP.init({
     {'icon': iconImage, 'title': 'Emir - Sevgilim', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LSaeGOXjlmw2RVwmXNT%2F-LSae_z8WpIZrnf0EXF5%2Fsevgilim.mp3?alt=media&token=399463cc-782c-4eb0-a5a7-dff5dbeb6df5'},
     {'icon': iconImage, 'title': 'Bahadır Tatlıöz - Kendine İyi Bak', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LSahf0KZf_uuLbKyAEr%2F-LSahqWl4Cjccz8tKCZy%2Fkendineiyibak.mp3?alt=media&token=08dfd1af-9c1e-4df0-9238-3e043cffdf27'},
     {'icon': iconImage, 'title': 'Sevgi - Geçti Devir (Muratt Mat & Kemal Nalbant Remix)', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LSaeGOXjlmw2RVwmXNT%2F-LSaebjZdIV_tgFjgtbO%2Fgectidevir.mp3?alt=media&token=ad364c2d-04d0-490e-9228-e0553b38a495'},
-    {'icon': iconImage, 'title': 'Emre Atabay - Aslında Yok', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LSkLDCy7BkemF2_eciC%2F-LSkLGAvj9jcwzsxFeOr%2Faslindayok.mp3?alt=media&token=39bffdb8-f7b6-4807-bef3-3812564a4b3c'},
-    {'icon': iconImage, 'title': 'Kenan Kasap - Empati', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LTScBrTqBF9NtqZU1h-%2F-LTScMghN6iTp_P2ny_8%2Fempati.mp3?alt=media&token=aef456fd-5fad-4fd9-ba72-6144d7427713'},
-    {'icon': iconImage, 'title': 'Damla - biber', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LTT2H9wMkmsIVHmPCz6%2F-LTT2O0wWf6uMLN00e5E%2Fbiber.mp3?alt=media&token=bc3b86a6-0c26-4a1a-9f04-81966851986e'},
   ]
 });
 
