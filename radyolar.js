@@ -7,7 +7,7 @@ AP.init({
     {'icon': iconImage, 'title': 'Power Türk', 'file': 'https://listen.powerapp.com.tr/powerturk/mpeg/icecast.audio?/;stream.mp3'},
     {'icon': iconImage, 'title': 'Kral Pop Radyo', 'file': 'http://kralpopwmp.radyotvonline.com:80/;stream.nsv'},
     {'icon': iconImage, 'title': 'Pal Fm', 'file': 'http://shoutcast.radyogrup.com:1030/;stream.nsv'},
-    {'icon': iconImage, 'title': 'Slow Türk', 'file': 'https://r3.rocketcdn.com/slowturk/abr/playlist.m3u8'},
+    {'icon': iconImage, 'title': 'Slow Türk', 'file': 'https://r3.rocketcdn.com/slowturk/abr/slowturk/256/chunks.m3u8'},
     {'icon': iconImage, 'title': 'Number One Türk', 'file': 'https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e30cf8d28e_1/playlist.m3u8'},
     {'icon': iconImage, 'title': 'Joy Türk', 'file': 'https://17733.live.streamtheworld.com/JOY_TURK_SC'},
     {'icon': iconImage, 'title': 'Mydonose Türk', 'file': 'https://17753.live.streamtheworld.com/DANSTURK_SC'},
