@@ -3,26 +3,27 @@
 var iconImage = '';
 AP.init({
   playList: [
-    {'icon': iconImage, 'title': 'MURAT BOZ - AŞK BU', 'file': 'https://www.tmb.tv/uploads/MURATBZZ.mp3'},
+
     {'icon': iconImage, 'title': 'REYHAN KARACA - LAGA LUGA', 'file': 'https://www.tmb.tv/uploads/REYHHAN.mp3'},
     {'icon': iconImage, 'title': 'MERVE ÖZBEY - TEBRİKLER', 'file': 'https://www.tmb.tv/uploads/merv.mp3'},
-    {'icon': iconImage, 'title': 'DİNARA SULTAN - SYI', 'file': 'https://www.tmb.tv/uploads/DINARRA.mp3'},
-    {'icon': iconImage, 'title': 'NİGAR JAMAL - YA V TVOYOM PLENU', 'file': 'https://www.tmb.tv/uploads/ngarr.mp3'},
-    {'icon': iconImage, 'title': 'AJDA PEKKAN - CANIN SAĞ OLSUN	', 'file': 'https://www.tmb.tv/uploads/AJDDAAA.mp3'},
-    {'icon': iconImage, 'title': 'GÖKSEL - HİÇ YOK', 'file': 'https://www.tmb.tv/uploads/GOKSLLLD.mp3'},
     {'icon': iconImage, 'title': 'DERYA ULUĞ - AH ZAMAN', 'file': 'https://www.tmb.tv/uploads/DERYAULUG.mp3'},
     {'icon': iconImage, 'title': 'IRMAK ARICI-MUSTAFA CECELİ - MÜHÜR', 'file': 'https://www.tmb.tv/uploads/IRMAK%20MUSTAFA.mp3'},
+    {'icon': iconImage, 'title': 'MURAT BOZ - AŞK BU', 'file': 'https://www.tmb.tv/uploads/MURATBZZ.mp3'},
+    {'icon': iconImage, 'title': 'NİGAR JAMAL - YA V TVOYOM PLENU', 'file': 'https://www.tmb.tv/uploads/ngarr.mp3'},
+    {'icon': iconImage, 'title': 'DİNARA SULTAN - SYI', 'file': 'https://www.tmb.tv/uploads/DINARRA.mp3'},
     {'icon': iconImage, 'title': 'MURAD ARİF - MENE SEN LAZIMSAN', 'file': 'https://www.tmb.tv/uploads/muratar%C4%B1f.mp3'},
-    {'icon': iconImage, 'title': 'YALIN - DEME BANA YOKUM', 'file': 'https://www.tmb.tv/uploads/YALNNS.mp3'},
     {'icon': iconImage, 'title': 'HADİSE - GELİYORUM YANINA', 'file': 'https://www.tmb.tv/uploads/HADSES.mp3'},
+    {'icon': iconImage, 'title': 'AYNUR AYDIN - GEL GÜZELİM', 'file': 'https://www.tmb.tv/uploads/AYNRR.mp3'},
+    {'icon': iconImage, 'title': 'GÖKSEL - HİÇ YOK', 'file': 'https://www.tmb.tv/uploads/GOKSLLLD.mp3'},
+    {'icon': iconImage, 'title': 'SİMGE - AS BAYRAKLARI', 'file': 'https://www.tmb.tv/uploads/SMGS.mp3'},
+    {'icon': iconImage, 'title': 'AJDA PEKKAN - CANIN SAĞ OLSUN	', 'file': 'https://www.tmb.tv/uploads/AJDDAAA.mp3'},
+    {'icon': iconImage, 'title': 'YALIN - DEME BANA YOKUM', 'file': 'https://www.tmb.tv/uploads/YALNNS.mp3'},
     {'icon': iconImage, 'title': 'ULUGBEK RAHMATULLAYEV - CHAKANAMAS', 'file': 'https://www.tmb.tv/uploads/MUNIUSA-ULGUBEK.mp3'},
     {'icon': iconImage, 'title': 'GÜLBEN ERGEN - MÜSAADENLE', 'file': 'https://www.tmb.tv/uploads/GLBN.mp3'},
-    {'icon': iconImage, 'title': 'AYNUR AYDIN - GEL GÜZELİM', 'file': 'https://www.tmb.tv/uploads/AYNRR.mp3'},
-    {'icon': iconImage, 'title': 'SİMGE - AS BAYRAKLARI', 'file': 'https://www.tmb.tv/uploads/SMGS.mp3'},
-    {'icon': iconImage, 'title': 'ÇOLPON TALIPBEK - PESNYA DLYA TEBYA', 'file': 'https://www.tmb.tv/uploads/COLPONS.mp3'},
     {'icon': iconImage, 'title': 'SHAHZODA - SOGİNİB', 'file': 'https://www.tmb.tv/uploads/shahzdoa%C3%BC.mp3'},
-    {'icon': iconImage, 'title': 'GÜLŞEN - BİR İHTİMAL BİLİYORUM', 'file': 'https://www.tmb.tv/uploads/GULSEN.mp3'},
     {'icon': iconImage, 'title': 'ZAKKUM - BİLEMEDİM', 'file': 'https://www.tmb.tv/uploads/ZAKKM.mp3'},
+    {'icon': iconImage, 'title': 'ÇOLPON TALIPBEK - PESNYA DLYA TEBYA', 'file': 'https://www.tmb.tv/uploads/COLPONS.mp3'},
+    {'icon': iconImage, 'title': 'INDIRA ELEMES - SEZIM', 'file': 'https://www.tmb.tv/uploads/nd%C4%B1rasez%C4%B1m.mp3'},
   ]
 });
 
