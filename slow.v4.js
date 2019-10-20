@@ -3,9 +3,8 @@
 var iconImage = '';
 AP.init({
   playList: [
-    {'icon': iconImage, 'title': 'Mustafa Ceceli - Bedel', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LreNfb1ol7aPPTYJQBC%2F-LreOdcAOnMIWB71U9zv%2Fbedel.mp3?alt=media&token=153214cb-2416-49b8-938d-d19b219a4349'},
-    {'icon': iconImage, 'title': 'Cem Belevi - Farkında mısın?', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LreNfb1ol7aPPTYJQBC%2F-LreOGWz-lXdmR1el3ny%2Ffarkindamisin.mp3?alt=media&token=165c6249-ee36-4ef1-a94a-3b9d6cc92179'},
     {'icon': iconImage, 'title': 'Irmak Arıcı & Mustafa Ceceli - Mühür', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LjgxteNRIUfRa08iOsK%2F-LjgwZfC7CAMdvjRI7bj%2Fmcecelimuhur.mp3?alt=media&token=eda9a241-1ffa-4c98-b141-be842a5874a5'},
+    {'icon': iconImage, 'title': 'Cem Belevi - Farkında mısın?', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LreNfb1ol7aPPTYJQBC%2F-LreOGWz-lXdmR1el3ny%2Ffarkindamisin.mp3?alt=media&token=165c6249-ee36-4ef1-a94a-3b9d6cc92179'},
     {'icon': iconImage, 'title': 'Merve Özbey - Yaramızda Kalsın', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-Lh0EzdPi5gVv0VE4KCX%2F-Lh0FBDiiTloUUwx8Ajk%2Fyaramizdakalsinmerve.mp3?alt=media&token=812943e6-60f7-42db-9b2c-36ce22fc2621'},
     {'icon': iconImage, 'title': 'Feride Hilal Akın - Yok Yok', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LfLtjTxhnU5Ilh0tdnU%2F-LfLuHbBzx8MbOxepyW0%2Fyokyok.mp3?alt=media&token=31d8b3ac-3c9d-4a47-ac13-68cb14e4ddaa'},
     {'icon': iconImage, 'title': 'Sezen Aksu - Tanrı Misafiri', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LqXP2xzBOy8KjNgJu2z%2F-LqXPA3qBuVGgntva_Cs%2Ftanrimisafiri.mp3?alt=media&token=b9022393-a542-47f4-ba20-ee8815013030'},
