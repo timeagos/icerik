@@ -3,6 +3,7 @@
 var iconImage = '';
 AP.init({
   playList: [
+    {'icon': iconImage, 'title': 'Mustafa Ceceli - Bedel', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LreNfb1ol7aPPTYJQBC%2F-LreOdcAOnMIWB71U9zv%2Fbedel.mp3?alt=media&token=153214cb-2416-49b8-938d-d19b219a4349'},
     {'icon': iconImage, 'title': 'Derya Uluğ - Ah Zaman', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-Ljgr5DJDgXpvoY-oBnp%2F-Ljgr8fkpfHnJ4Konyfl%2Fahzaman.mp3?alt=media&token=b1440ecd-0741-433d-a6d8-0bc64c82811a'},
     {'icon': iconImage, 'title': 'Ziynet Sali - Bana da Söyle', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-La04QvWy9rxNTZlJdD4%2F-La04u_a76TdTjRq6FhX%2Fbanadasoyle.mp3?alt=media&token=a018a6b6-2003-431f-8325-2ec5fd16062f'},
     {'icon': iconImage, 'title': 'Hadise - Geliyorum Yanına', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LlpYeBO1NCmccwNZxzq%2F-LlpYkcOc28nwz6zYx_o%2Fgeliyorumyanina.mp3?alt=media&token=698a9bb3-1389-44b5-ae27-ce85d7613168'},
