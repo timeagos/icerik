@@ -3,6 +3,8 @@
 var iconImage = '';
 AP.init({
   playList: [
+    {'icon': iconImage, 'title': 'Ebru Yaşar - Alev Alev', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrzRQOhj53jXurJv001%2F-LrzS0LrsMM_c-bHzBWO%2Falevalev.mp3?alt=media&token=57d6c9d2-37bf-4a0b-a6da-3183f8161b6c'},
+    {'icon': iconImage, 'title': 'İntizar - Konu Sen Olunca', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrzRQOhj53jXurJv001%2F-LrzR_Urr76SWuswwS_X%2Fkonusenolunca.mp3?alt=media&token=84ad6c3f-956f-4402-b2f9-6ce0aa48b738'},
     {'icon': iconImage, 'title': 'Volkan Konak - Ömür Bizi Beklemez', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LpxnxTU43INbK_BwEn9%2F-LpxpKoUHcAT5TPnaEH2%2Fbizibeklemez.mp3?alt=media&token=b28ef5cf-f929-418c-8139-8bcdb0eb2508'},
     {'icon': iconImage, 'title': 'Ebru Gündeş - Âşık', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-La-ld-cLxf2SL-jGXJ9%2F-La-liaboGpSbsytc8Mj%2Fasik.mp3?alt=media&token=c7584996-d4f6-4dc0-98de-1387f49df34f'},
     {'icon': iconImage, 'title': 'Cengiz Kurtoğlu & Hakan Altun - Duyanlara Duymayanlara', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LpxnxTU43INbK_BwEn9%2F-LpxprHOY_kYbHj0ZN7c%2Fduyanlaraduymayanlara.mp3?alt=media&token=4f265f7a-0eac-4743-94e8-e13be3565c48'},
