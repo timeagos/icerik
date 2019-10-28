@@ -64,7 +64,16 @@ const audio = document.getElementById('player');
 },
  */
 const songList = [
-  {
+{
+    title: 'Bilal SONSES - Neyim Olacaktın?',
+    duration: 180,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-mDGZSKIiLEM/XbdF_9liMBI/AAAAAAAABkM/PIWqRTsWk1Ex6E_5Q-XHJnTxFUe39flbwCLcBGAsYHQ/s1600/neyim-olacaktin.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsIujdJHlIIyVSckGrb%2F-LsIun1MCp9gzkhiwwn9%2Fneyimolacaktin.mp3?alt=media&token=d686b482-609d-47b9-9e27-0a983a389004`,
+  },{
     title: 'Ebru Yaşar - Alev Alev',
     duration: 180,
     album: {
@@ -83,6 +92,26 @@ const songList = [
       },
     },
     url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrzPjObqLRCicx8Cjec%2F-LrzQEFZ7pbilsRaQwwT%2Fbirakaglayayim.mp3?alt=media&token=1cc0202a-59ba-41c2-b2e0-d972a03f64f4`,
+  },
+  {
+    title: 'Mabel Matiz - Gözlerine',
+    duration: 180,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-bCsZd2MOT2Y/XbdF_8gpdmI/AAAAAAAABkE/kGni5EkkBnwkcO4L5VLloy_O0gOST4hUACLcBGAsYHQ/s1600/gozlerine.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsItprVLnqLy5x9dVU7%2F-LsItsutewrF7EkyBP2d%2Fgozlerine.mp3?alt=media&token=ad5153df-c337-4477-8088-5764d0cc87dd`,
+  },
+  {
+    title: 'Jehan Barbur - Kusura Bakmasınlar',
+    duration: 180,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-VOCo5xmdb4w/XbdF_wxUYuI/AAAAAAAABkI/Noq8Ze8TNaUQxx78dKzWWBAydt5q3irkQCLcBGAsYHQ/s1600/kusura-bakmasinlar.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsIujdJHlIIyVSckGrb%2F-LsIv7waA08YN36xSgov%2Fkusurabakmasinlar.mp3?alt=media&token=dd7da2c3-f1dc-4a25-a114-aa91af9f6d5c`,
   },
   {
     title: 'Ayşe Hatun Önal - Efsane',
