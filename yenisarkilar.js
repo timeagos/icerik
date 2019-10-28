@@ -1,4 +1,6 @@
-﻿/**
+'use strict';
+
+/**
  * A music player ... cause why not.
  * Hotkeys:
  *   a - previous
@@ -12,50 +14,50 @@
 
 const colors = {
   aqua: {
-    25: &#39;#eceaf7&#39;,
-    50: &#39;#fff&#39;,
-    80: &#39;#fff&#39;,
+    25: '#eceaf7',
+    50: '#fff',
+    80: '#fff',
   },
   metal: {
-    5: &#39;#F3F3F1&#39;,
-    20: &#39;#CFD0C8&#39;,
-    50: &#39;#868975&#39;,
-    80: &#39;#36372F&#39;,
-    90: &#39;#272822&#39;,
+    5: '#F3F3F1',
+    20: '#CFD0C8',
+    50: '#868975',
+    80: '#36372F',
+    90: '#272822',
   },
 };
 
 // Control button elements
 const buttons = {
-  shuffle: document.querySelector(&#39;#controls .shuffle&#39;),
-  previous: document.querySelector(&#39;#controls .previous&#39;),
-  playPause: document.querySelector(&#39;#controls .play-pause&#39;),
-  next: document.querySelector(&#39;#controls .next&#39;),
-  repeat: document.querySelector(&#39;#controls .repeat&#39;),
+  shuffle: document.querySelector('#controls .shuffle'),
+  previous: document.querySelector('#controls .previous'),
+  playPause: document.querySelector('#controls .play-pause'),
+  next: document.querySelector('#controls .next'),
+  repeat: document.querySelector('#controls .repeat'),
 };
 
-// Range &amp; Time elements
-const songCurrentTime = document.querySelector(&#39;.song-current-time&#39;);
-const songLength = document.querySelector(&#39;.song-length&#39;);
-const trackingSlider = document.querySelector(&#39;.tracking-slider&#39;);
-const volumeSlider = document.querySelector(&#39;.volume-slider&#39;);
+// Range & Time elements
+const songCurrentTime = document.querySelector('.song-current-time');
+const songLength = document.querySelector('.song-length');
+const trackingSlider = document.querySelector('.tracking-slider');
+const volumeSlider = document.querySelector('.volume-slider');
 
 // Playlist
-const playlistBody = document.querySelector(&#39;#playlist tbody&#39;);
-let playlistPlay = document.querySelectorAll(&#39;#playlist .play-pause&#39;);
-let listItems = document.querySelectorAll(&#39;#playlist tbdoy tr&#39;);
+const playlistBody = document.querySelector('#playlist tbody');
+let playlistPlay = document.querySelectorAll('#playlist .play-pause');
+let listItems = document.querySelectorAll('#playlist tbdoy tr');
 
 // Audio Element
-const audio = document.getElementById(&#39;player&#39;);
+const audio = document.getElementById('player');
 
 /**
  * A base list of songs and the meta data for them.
  *
 {
-  title: &#39;&#39;,
-  artist: &#39;&#39;,
+  title: '',
+  artist: '',
     art: {
-      square: &#39;&#39;,
+      square: '',
     },
   },
   url: `${archiveBase}`,
@@ -63,74 +65,74 @@ const audio = document.getElementById(&#39;player&#39;);
  */
 const songList = [
   {
-    title: &#39;Ebru Yaşar - Alev Alev&#39;,
+    title: 'Ebru Yaşar - Alev Alev',
     duration: 180,
     album: {
       art: {
-        square: &#39;https://1.bp.blogspot.com/-zWY4yg5LrWY/XbcfUpDVEjI/AAAAAAAABjE/aLqzRn_NSc46T6ixiJrqYd8H8Xf0CznkgCLcBGAsYHQ/s1600/alev-alev.jpg&#39;,
+        square: 'https://1.bp.blogspot.com/-zWY4yg5LrWY/XbcfUpDVEjI/AAAAAAAABjE/aLqzRn_NSc46T6ixiJrqYd8H8Xf0CznkgCLcBGAsYHQ/s1600/alev-alev.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrzRQOhj53jXurJv001%2F-LrzS0LrsMM_c-bHzBWO%2Falevalev.mp3?alt=media&amp;token=57d6c9d2-37bf-4a0b-a6da-3183f8161b6c`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrzRQOhj53jXurJv001%2F-LrzS0LrsMM_c-bHzBWO%2Falevalev.mp3?alt=media&token=57d6c9d2-37bf-4a0b-a6da-3183f8161b6c`,
   },
   {
-    title: &#39;Fettah Can - Bırak Ağlayayım&#39;,
+    title: 'Fettah Can - Bırak Ağlayayım',
     duration: 229,
     album: {
       art: {
-        square: &#39;https://1.bp.blogspot.com/-5bLPuT-EfnA/XbcfUrXlKMI/AAAAAAAABjM/BxHRHPQhLUQEiVCNHmJEbvcfK_BK4RqJQCLcBGAsYHQ/s1600/birak-aglayayim.jpg&#39;,
+        square: 'https://1.bp.blogspot.com/-5bLPuT-EfnA/XbcfUrXlKMI/AAAAAAAABjM/BxHRHPQhLUQEiVCNHmJEbvcfK_BK4RqJQCLcBGAsYHQ/s1600/birak-aglayayim.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrzPjObqLRCicx8Cjec%2F-LrzQEFZ7pbilsRaQwwT%2Fbirakaglayayim.mp3?alt=media&amp;token=1cc0202a-59ba-41c2-b2e0-d972a03f64f4`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrzPjObqLRCicx8Cjec%2F-LrzQEFZ7pbilsRaQwwT%2Fbirakaglayayim.mp3?alt=media&token=1cc0202a-59ba-41c2-b2e0-d972a03f64f4`,
   },
   {
-    title: &#39;Ayşe Hatun Önal - Efsane&#39;,
+    title: 'Ayşe Hatun Önal - Efsane',
     duration: 192,
     album: {
       art: {
-        square: &#39;https://1.bp.blogspot.com/-KXHXvLD8Yi0/XbcfUulM69I/AAAAAAAABjI/Lb7JiPHjmwcI5oxe9wlzzsXImJxbfN6OgCLcBGAsYHQ/s1600/efsane.jpg&#39;,
+        square: 'https://1.bp.blogspot.com/-KXHXvLD8Yi0/XbcfUulM69I/AAAAAAAABjI/Lb7JiPHjmwcI5oxe9wlzzsXImJxbfN6OgCLcBGAsYHQ/s1600/efsane.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrePI7Rx4CN-na5E_3f%2F-LrePLSj2UlVh2LseJjd%2Fefsane.mp3?alt=media&amp;token=b5531b1a-f587-462e-90b8-d0475fbda853`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrePI7Rx4CN-na5E_3f%2F-LrePLSj2UlVh2LseJjd%2Fefsane.mp3?alt=media&token=b5531b1a-f587-462e-90b8-d0475fbda853`,
   },
   {
-    title: &#39;Simge - Yalnız Başına&#39;,
+    title: 'Simge - Yalnız Başına',
     duration: 192,
     album: {
       art: {
-        square: &#39;https://1.bp.blogspot.com/--ZAFrZXmI-M/XbcfWZjhhKI/AAAAAAAABjY/aI9jXAVFcQ44CvQSqQ3fOlcL32l2c1FJQCLcBGAsYHQ/s1600/simge-yalniz-basina.jpg&#39;,
+        square: 'https://1.bp.blogspot.com/--ZAFrZXmI-M/XbcfWZjhhKI/AAAAAAAABjY/aI9jXAVFcQ44CvQSqQ3fOlcL32l2c1FJQCLcBGAsYHQ/s1600/simge-yalniz-basina.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrzOnzz28wGj_eIRp6X%2F-LrzP8DxvCePJA7mdPyu%2Fyalnizbasina.mp3?alt=media&amp;token=8875b4a9-18e2-4164-bc9a-eda0fee6727c`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LrzOnzz28wGj_eIRp6X%2F-LrzP8DxvCePJA7mdPyu%2Fyalnizbasina.mp3?alt=media&token=8875b4a9-18e2-4164-bc9a-eda0fee6727c`,
   },
   {
-    title: &#39;Tuğçe Kandemir - Yelkovan&#39;,
+    title: 'Tuğçe Kandemir - Yelkovan',
     duration: 192,
     album: {
       art: {
-        square: &#39;https://1.bp.blogspot.com/-MXxAUC-P9X4/XbcfWxhQgzI/AAAAAAAABjc/m0J4jGdcrFsHwttYJZI8p7dgZOSwTNKKACLcBGAsYHQ/s1600/yelkovan.jpg&#39;,
+        square: 'https://1.bp.blogspot.com/-MXxAUC-P9X4/XbcfWxhQgzI/AAAAAAAABjc/m0J4jGdcrFsHwttYJZI8p7dgZOSwTNKKACLcBGAsYHQ/s1600/yelkovan.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LqzKmeYBD7-EhOhsjnD%2F-LqzLokW3DjZd_t8IWZQ%2Fyelkovan.mp3?alt=media&amp;token=d38311f8-4fbb-42da-bd5a-cb7f177abbcf`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LqzKmeYBD7-EhOhsjnD%2F-LqzLokW3DjZd_t8IWZQ%2Fyelkovan.mp3?alt=media&token=d38311f8-4fbb-42da-bd5a-cb7f177abbcf`,
   },
   {
-    title: &#39;Mustafa Ceceli - Bedel&#39;,
+    title: 'Mustafa Ceceli - Bedel',
     duration: 192,
     album: {
       art: {
-        square: &#39;https://1.bp.blogspot.com/-AF_IITns9KQ/XbcfV41JkQI/AAAAAAAABjU/NxjBLi894lQPHq0G2G5NxA8NMKLWyU2hwCLcBGAsYHQ/s1600/mustafa-ceceli-bedel.jpg&#39;,
+        square: 'https://1.bp.blogspot.com/-AF_IITns9KQ/XbcfV41JkQI/AAAAAAAABjU/NxjBLi894lQPHq0G2G5NxA8NMKLWyU2hwCLcBGAsYHQ/s1600/mustafa-ceceli-bedel.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LreNfb1ol7aPPTYJQBC%2F-LreOdcAOnMIWB71U9zv%2Fbedel.mp3?alt=media&amp;token=153214cb-2416-49b8-938d-d19b219a4349`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LreNfb1ol7aPPTYJQBC%2F-LreOdcAOnMIWB71U9zv%2Fbedel.mp3?alt=media&token=153214cb-2416-49b8-938d-d19b219a4349`,
   },
   {
-    title: &#39;Cem Belevi - Farkında mısın&#39;,
+    title: 'Cem Belevi - Farkında mısın',
     duration: 192,
     album: {
       art: {
-        square: &#39;&#39;,
+        square: '',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LreNfb1ol7aPPTYJQBC%2F-LreOGWz-lXdmR1el3ny%2Ffarkindamisin.mp3?alt=media&amp;token=165c6249-ee36-4ef1-a94a-3b9d6cc92179`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LreNfb1ol7aPPTYJQBC%2F-LreOGWz-lXdmR1el3ny%2Ffarkindamisin.mp3?alt=media&token=165c6249-ee36-4ef1-a94a-3b9d6cc92179`,
   }
 ];
 
@@ -144,7 +146,7 @@ const songList = [
 function toggleClasses(element, classes) {
   const currentClasses = new Set(element.classList);
   // Separate string formatted classes into an array or accept array param
-  const newClasses = (_.isString(classes)) ? classes.split(&#39; &#39;) : classes;
+  const newClasses = (_.isString(classes)) ? classes.split(' ') : classes;
 
   for (const className of newClasses) {if (window.CP.shouldStopExecution(1)){break;}if (window.CP.shouldStopExecution(1)){break;}
     if (currentClasses.has(className)) {
@@ -182,17 +184,17 @@ function secondsToHms(seconds) {
     seconds: String(Math.floor(Number(seconds) % 3600 % 60)),
   };
 
-  if (time.hours &amp;&amp; time.hours &lt; 10) {
+  if (time.hours && time.hours < 10) {
     time.hours = `0${time.hours}`;
   }
-  if (time.minutes &amp;&amp; time.minutes &lt; 10) {
+  if (time.minutes && time.minutes < 10) {
     time.minutes = `0${time.minutes}`;
   }
-  if (time.seconds &amp;&amp; time.seconds &lt; 10) {
+  if (time.seconds && time.seconds < 10) {
     time.seconds = `0${time.seconds}`;
   }
 
-  if (time.hours !== &#39;00&#39;) {
+  if (time.hours !== '00') {
     return `${time.hours}:${time.minutes}:${time.seconds}`;
   } else {
     return `${time.minutes}:${time.seconds}`;
@@ -204,9 +206,9 @@ function secondsToHms(seconds) {
  */
 class Player {
   constructor() {
-    this.playing = (new Set(buttons.playPause.classList).has(&#39;on&#39;));
-    this.shuffle = (new Set(buttons.shuffle.classList).has(&#39;on&#39;));
-    this.repeat = (new Set(buttons.repeat.classList).has(&#39;on&#39;));
+    this.playing = (new Set(buttons.playPause.classList).has('on'));
+    this.shuffle = (new Set(buttons.shuffle.classList).has('on'));
+    this.repeat = (new Set(buttons.repeat.classList).has('on'));
 
     this.songIndex = 0;
     this.previousSong = songList.length - 1;
@@ -236,8 +238,8 @@ class Player {
     songLength.innerHTML = secondsToHms(song.duration);
     trackingSlider.max = song.duration;
 
-    document.querySelector(`tr[data-index=&quot;${this.previousSong}&quot;]`).classList.remove(&#39;playing&#39;);
-    toggleClasses(document.querySelector(`tr[data-index=&quot;${this.songIndex}&quot;]`), &#39;playing&#39;);
+    document.querySelector(`tr[data-index="${this.previousSong}"]`).classList.remove('playing');
+    toggleClasses(document.querySelector(`tr[data-index="${this.songIndex}"]`), 'playing');
   }
 
   /**
@@ -296,11 +298,11 @@ class Controls extends Player {
    */
   playPause() {
     this.playing = toggleBoolean(this.playing);
-    toggleClasses(buttons.playPause, &#39;on fa-play fa-pause&#39;);
+    toggleClasses(buttons.playPause, 'on fa-play fa-pause');
 
     const currentClasses = new Set(buttons.playPause.classList);
 
-    if (currentClasses.has(&#39;on&#39;)) {
+    if (currentClasses.has('on')) {
       this.play();
     } else {
       this.pause();
@@ -314,12 +316,12 @@ class Controls extends Player {
     this.previousSong = this.songIndex;
     let playNext = true;
 
-    toggleClasses(document.querySelector(`tr[data-index=&quot;${this.songIndex}&quot;]`), &#39;playing&#39;);
+    toggleClasses(document.querySelector(`tr[data-index="${this.songIndex}"]`), 'playing');
 
     if (this.shuffle) {
       this.randomIndex++;
 
-      if (this.randomIndex &gt;= this.randomOrder.size) {
+      if (this.randomIndex >= this.randomOrder.size) {
         this.randomIndex = 0;
 
         playNext = (this.repeat);
@@ -329,7 +331,7 @@ class Controls extends Player {
     } else {
       this.songIndex++;
 
-      if (this.songIndex &gt;= songList.length) {
+      if (this.songIndex >= songList.length) {
         this.songIndex = 0;
 
         playNext = (this.repeat);
@@ -351,7 +353,7 @@ class Controls extends Player {
    * Go to the previous item in the list.
    */
   previous() {
-    toggleClasses(document.querySelector(`tr[data-index=&quot;${this.songIndex}&quot;]`), &#39;playing&#39;);
+    toggleClasses(document.querySelector(`tr[data-index="${this.songIndex}"]`), 'playing');
 
     if (this.shuffle) {
       if (this.randomIndex === 0) {
@@ -379,16 +381,16 @@ class Controls extends Player {
    */
   toggleShuffle() {
     this.shuffle = toggleBoolean(this.shuffle);
-    toggleClasses(buttons.shuffle, &#39;on&#39;);
+    toggleClasses(buttons.shuffle, 'on');
     const currentClasses = new Set(buttons.shuffle.classList);
 
-    if (currentClasses.has(&#39;on&#39;)) {
+    if (currentClasses.has('on')) {
       this.randomOrder = new Set();
       this.randomIndex = 0;
 
       let randomIndex = this.songIndex;
 
-      for (let index = 0; index &lt; songList.length; index++) {if (window.CP.shouldStopExecution(3)){break;}if (window.CP.shouldStopExecution(3)){break;}
+      for (let index = 0; index < songList.length; index++) {if (window.CP.shouldStopExecution(3)){break;}if (window.CP.shouldStopExecution(3)){break;}
         // While loop to ensure that the index being added to the random order is unique, else changes the index value
         while (this.randomOrder.has(randomIndex)) {if (window.CP.shouldStopExecution(2)){break;}if (window.CP.shouldStopExecution(2)){break;}
           randomIndex = Math.floor(Math.random() * songList.length);
@@ -412,7 +414,7 @@ window.CP.exitedLoop(3);
    */
   toggleRepeat() {
     this.repeat = toggleBoolean(this.repeat);
-    toggleClasses(buttons.repeat, &#39;on&#39;);
+    toggleClasses(buttons.repeat, 'on');
   }
 }
 
@@ -421,50 +423,50 @@ window.CP.exitedLoop(3);
 const controls = new Controls();
 
 // Add event listeners for the buttons
-buttons.playPause.addEventListener(&#39;click&#39;, () =&gt; {
+buttons.playPause.addEventListener('click', () => {
   controls.playPause();
 });
-buttons.next.addEventListener(&#39;click&#39;, () =&gt; {
+buttons.next.addEventListener('click', () => {
   controls.next();
 });
-buttons.previous.addEventListener(&#39;click&#39;, () =&gt; {
+buttons.previous.addEventListener('click', () => {
   controls.previous();
 });
-buttons.shuffle.addEventListener(&#39;click&#39;, () =&gt; {
+buttons.shuffle.addEventListener('click', () => {
   controls.toggleShuffle();
 });
-buttons.repeat.addEventListener(&#39;click&#39;, () =&gt; {
+buttons.repeat.addEventListener('click', () => {
   controls.toggleRepeat();
 });
 
 
-audio.onended = () =&gt; {
+audio.onended = () => {
   // Once a song is over play next song.
   controls.next();
 };
-audio.ontimeupdate = () =&gt; {
+audio.ontimeupdate = () => {
   trackingSlider.value = audio.currentTime;
   controls.updateSongRangeValues();
 };
 
 // Update the range values on change or moving the scrubber.
-trackingSlider.addEventListener(&#39;change&#39;, () =&gt; {
+trackingSlider.addEventListener('change', () => {
   controls.updateSongRangeValues();
   controls.seek();
 });
-trackingSlider.addEventListener(&#39;mousemove&#39;, () =&gt; {
+trackingSlider.addEventListener('mousemove', () => {
   controls.updateSongRangeValues();
 });
 
-volumeSlider.addEventListener(&#39;change&#39;, () =&gt; {
+volumeSlider.addEventListener('change', () => {
   controls.adjustVolume();
 });
-volumeSlider.addEventListener(&#39;mousemove&#39;, () =&gt; {
+volumeSlider.addEventListener('mousemove', () => {
   controls.adjustVolume();
 });
 
-// That&#39;s right ... hotkeys!
-document.onkeypress = (event) =&gt; {
+// That's right ... hotkeys!
+document.onkeypress = (event) => {
   switch (event.keyCode) {
     // a - previous
     case 97: {
@@ -503,25 +505,25 @@ document.onkeypress = (event) =&gt; {
  */
 function buildPlaylist() {
   // Add the songs to the dom
-  let html = &#39;&#39;;
-  songList.forEach((song, index) =&gt; {
+  let html = '';
+  songList.forEach((song, index) => {
     html += `
-&lt;tr data-index=&quot;${index}&quot;&gt;
-  &lt;td class=&quot;play-pause&quot;&gt;&lt;img src=&quot;${song.album.art.square}&quot;&gt;&lt;/td&gt;
-  &lt;td&gt;${song.title}&lt;/td&gt;
-  &lt;td&gt;${song.title}&lt;/td&gt;
-&lt;/tr&gt;
+<tr data-index="${index}">
+  <td class="play-pause"><img src="${song.album.art.square}"></td>
+  <td>${song.title}</td>
+  <td>${song.title}</td>
+</tr>
 `;
   });
   playlistBody.innerHTML = html;
 
   // Update the list items
-  listItems = document.querySelectorAll(&#39;#playlist tbody tr&#39;);
-  playlistPlay = document.querySelectorAll(&#39;#playlist .play-pause&#39;);
+  listItems = document.querySelectorAll('#playlist tbody tr');
+  playlistPlay = document.querySelectorAll('#playlist .play-pause');
 
   // Add event listeners to the list items
   for (const listItem of listItems) {if (window.CP.shouldStopExecution(4)){break;}if (window.CP.shouldStopExecution(4)){break;}
-    listItem.addEventListener(&#39;click&#39;, (event) =&gt; {
+    listItem.addEventListener('click', (event) => {
       const songIndex = event.target.parentElement.dataset.index;
       controls.updateSong(songIndex);
 
@@ -530,7 +532,7 @@ function buildPlaylist() {
       }
     });
 
-    listItem.addEventListener(&#39;dblclick&#39;, (event) =&gt; {
+    listItem.addEventListener('dblclick', (event) => {
       event.preventDefault();
       event.stopPropagation();
 
@@ -545,7 +547,7 @@ window.CP.exitedLoop(4);
 
   
   for (const playlistPlayButton of playlistPlay) {if (window.CP.shouldStopExecution(5)){break;}if (window.CP.shouldStopExecution(5)){break;}
-    playlistPlayButton.addEventListener(&#39;click&#39;, (event) =&gt; {
+    playlistPlayButton.addEventListener('click', (event) => {
       if (!controls.playing) {
         controls.playPause();
       }
@@ -559,10 +561,8 @@ window.CP.exitedLoop(5);
 
 
 // Initiate the setup.
-window.onload = () =&gt; {
+window.onload = () => {
   buildPlaylist();
   controls.updateSong();
   controls.adjustVolume();
 };
-
-"use strict";"object"!=typeof window.CP&&(window.CP={}),window.CP.PenTimer={programNoLongerBeingMonitored:!1,timeOfFirstCallToShouldStopLoop:0,_loopExits:{},_loopTimers:{},START_MONITORING_AFTER:2e3,STOP_ALL_MONITORING_TIMEOUT:5e3,MAX_TIME_IN_LOOP_WO_EXIT:2200,exitedLoop:function(o){this._loopExits[o]=!0},shouldStopLoop:function(o){if(this.programKilledSoStopMonitoring)return!0;if(this.programNoLongerBeingMonitored)return!1;if(this._loopExits[o])return!1;var t=this._getTime();if(0===this.timeOfFirstCallToShouldStopLoop)return this.timeOfFirstCallToShouldStopLoop=t,!1;var i=t-this.timeOfFirstCallToShouldStopLoop;if(i<this.start_monitoring_after)return!1;if(i>this.STOP_ALL_MONITORING_TIMEOUT)return this.programNoLongerBeingMonitored=!0,!1;try{this._checkOnInfiniteLoop(o,t)}catch(o){return this._sendErrorMessageToEditor(),this.programKilledSoStopMonitoring=!0,!0}return!1},_sendErrorMessageToEditor:function(){try{if(this._shouldPostMessage()){var o={action:"infinite-loop",line:this._findAroundLineNumber()};parent.postMessage(JSON.stringify(o),"*")}else this._throwAnErrorToStopPen()}catch(o){this._throwAnErrorToStopPen()}},_shouldPostMessage:function(){return document.location.href.match(/boomerang/)},_throwAnErrorToStopPen:function(){throw"We found an infinite loop in your Pen. We've stopped the Pen from running. Please correct it or contact support@yenisarkilarlistesi.com"},_findAroundLineNumber:function(){var o=new Error,t=0;if(o.stack){var i=o.stack.match(/boomerang\S+:(\d+):\d+/);i&&(t=i[1])}return t},_checkOnInfiniteLoop:function(o,t){if(!this._loopTimers[o])return this._loopTimers[o]=t,!1;var i=t-this._loopTimers[o];if(i>this.MAX_TIME_IN_LOOP_WO_EXIT)throw"Infinite Loop found on loop: "+o},_getTime:function(){return+new Date}},window.CP.shouldStopExecution=function(o){var t=window.CP.PenTimer.shouldStopLoop(o);return t===!0&&console.warn("[Yenisarkilarlistesi]: An infinite loop (or a loop taking too long) was detected, so we stopped its execution. Sorry!"),t},window.CP.exitedLoop=function(o){window.CP.PenTimer.exitedLoop(o)};
