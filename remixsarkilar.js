@@ -3,6 +3,8 @@
 var iconImage = '';
 AP.init({
   playList: [
+    {'icon': iconImage, 'title': 'Ayla Çelik - Daha Bi Aşık (Selami Bilgiç)', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsO0yD0qYXz5lSlBvD9%2F-LsO1VqQyxf3yvIGmfgW%2Fdahabiasikrmx.mp3?alt=media&token=15f084b3-410b-4f72-a71e-c6e89ef7828b:'},
+    {'icon': iconImage, 'title': 'Can Oflaz - Aşk Mı Meşk Mi (Loop Versiyon)', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsO0yD0qYXz5lSlBvD9%2F-LsO11so2k3K2kZ3JKah%2Faskmimeskmirmx.mp3?alt=media&token=31127f66-54f5-4d01-8795-3d6b85459f7d'},
     {'icon': iconImage, 'title': 'Gökcan Sanlıman - Aramızda (By Dogac)', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LqXU4oA57ftirhNROvH%2F-LqXUdUHYwVft7JjLgAA%2Faramizdarmx.mp3?alt=media&token=5d65834c-22dc-417d-a232-a8c5350675ee'},
     {'icon': iconImage, 'title': 'Aybüke Poçan - Kaybet Benimle (Yüksel Ürer)', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LqXU4oA57ftirhNROvH%2F-LqXU9gwaOj4UI9ZDbUu%2Fkaybetbenimle.mp3?alt=media&token=4c3034a0-67db-48db-adde-4fbcbe82e95c'},
     {'icon': iconImage, 'title': 'Edis - Paha Biçilemez Bir Şey Başlat (Armageddon)', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LoAGVnR2LPjlpLbpkr9%2F-LoAGnizeYUXLVudKWlZ%2Fpahabicilemez.mp3?alt=media&token=81157d6b-57ff-4674-8f35-722e9461a9be'},
