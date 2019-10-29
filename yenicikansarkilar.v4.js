@@ -151,7 +151,7 @@ const songList = [
         square: 'https://1.bp.blogspot.com/-AF_IITns9KQ/XbcfV41JkQI/AAAAAAAABjU/NxjBLi894lQPHq0G2G5NxA8NMKLWyU2hwCLcBGAsYHQ/s1600/mustafa-ceceli-bedel.jpg',
       },
     },
-    url: `h-LreOdcAOnMIWB71U9zv%2Fbedel.mp3?alt=media&token=153214cb-2416-49b8-938d-d19b219a4349`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LreNfb1ol7aPPTYJQBC%2F-LreOdcAOnMIWB71U9zv%2Fbedel.mp3?alt=media&token=153214cb-2416-49b8-938d-d19b219a4349`,
   },
   {
     title: 'Cem Belevi - Farkında mısın',
