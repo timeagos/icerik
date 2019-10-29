@@ -74,6 +74,24 @@ const songList = [
     },
     url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsIujdJHlIIyVSckGrb%2F-LsIun1MCp9gzkhiwwn9%2Fneyimolacaktin.mp3?alt=media&token=d686b482-609d-47b9-9e27-0a983a389004`,
   },{
+    title: 'Cem Adrian & Hande Mehan - Kum Gibi',
+    duration: 244,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-WAHJBEGFvB8/XbiQZ8JkhsI/AAAAAAAABlE/BH9SqoGm5rw97RjbkX74lkQPsJZhA1lIwCLcBGAsYHQ/s1600/kum-gibi.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsNvzsHmm53ECGGl6DR%2F-LsNw5L8tIkbYqve16jj%2Fkumgibi.mp3?alt=media&token=ab27e330-3bc1-4920-8fb7-67ae92a5eb79`,
+  },{
+    title: 'Ceren Cennet - Kördüğüm',
+    duration: 221,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-RLQIw5GO6iM/XbiO8hoLlBI/AAAAAAAABk4/ioJHobpqnEErhklqajhxxIBgE68RBj4dQCLcBGAsYHQ/s1600/kordugum.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsNvEoNqAD7fNIKO56S%2F-LsNvHiAFPJX1HRwO_LO%2Fkordugum.mp3?alt=media&token=bb3baacf-62a1-4d03-b404-6076ab9f9c0b`,
+  },{
     title: 'Ebru Yaşar - Alev Alev',
     duration: 223,
     album: {
