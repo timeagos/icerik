@@ -66,7 +66,7 @@ const audio = document.getElementById('player');
 const songList = [
 {
     title: 'Bilal SONSES - Neyim Olacaktın?',
-    duration: 250,
+    duration: 174,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-mDGZSKIiLEM/XbdF_9liMBI/AAAAAAAABkM/PIWqRTsWk1Ex6E_5Q-XHJnTxFUe39flbwCLcBGAsYHQ/s1600/neyim-olacaktin.jpg',
@@ -75,7 +75,7 @@ const songList = [
     url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsIujdJHlIIyVSckGrb%2F-LsIun1MCp9gzkhiwwn9%2Fneyimolacaktin.mp3?alt=media&token=d686b482-609d-47b9-9e27-0a983a389004`,
   },{
     title: 'Ebru Yaşar - Alev Alev',
-    duration: 250,
+    duration: 223,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-zWY4yg5LrWY/XbcfUpDVEjI/AAAAAAAABjE/aLqzRn_NSc46T6ixiJrqYd8H8Xf0CznkgCLcBGAsYHQ/s1600/alev-alev.jpg',
@@ -85,7 +85,7 @@ const songList = [
   },
   {
     title: 'Fettah Can - Bırak Ağlayayım',
-    duration: 250,
+    duration: 173,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-5bLPuT-EfnA/XbcfUrXlKMI/AAAAAAAABjM/BxHRHPQhLUQEiVCNHmJEbvcfK_BK4RqJQCLcBGAsYHQ/s1600/birak-aglayayim.jpg',
@@ -95,7 +95,7 @@ const songList = [
   },
   {
     title: 'Mabel Matiz - Gözlerine',
-    duration: 250,
+    duration: 262,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-bCsZd2MOT2Y/XbdF_8gpdmI/AAAAAAAABkE/kGni5EkkBnwkcO4L5VLloy_O0gOST4hUACLcBGAsYHQ/s1600/gozlerine.jpg',
@@ -105,7 +105,7 @@ const songList = [
   },
   {
     title: 'Jehan Barbur - Kusura Bakmasınlar',
-    duration: 250,
+    duration: 247,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-VOCo5xmdb4w/XbdF_wxUYuI/AAAAAAAABkI/Noq8Ze8TNaUQxx78dKzWWBAydt5q3irkQCLcBGAsYHQ/s1600/kusura-bakmasinlar.jpg',
@@ -115,7 +115,7 @@ const songList = [
   },
   {
     title: 'Ayşe Hatun Önal - Efsane',
-    duration: 250,
+    duration: 218,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-KXHXvLD8Yi0/XbcfUulM69I/AAAAAAAABjI/Lb7JiPHjmwcI5oxe9wlzzsXImJxbfN6OgCLcBGAsYHQ/s1600/efsane.jpg',
@@ -125,7 +125,7 @@ const songList = [
   },
   {
     title: 'Simge - Yalnız Başına',
-    duration: 250,
+    duration: 190,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/--ZAFrZXmI-M/XbcfWZjhhKI/AAAAAAAABjY/aI9jXAVFcQ44CvQSqQ3fOlcL32l2c1FJQCLcBGAsYHQ/s1600/simge-yalniz-basina.jpg',
@@ -135,7 +135,7 @@ const songList = [
   },
   {
     title: 'Tuğçe Kandemir - Yelkovan',
-    duration: 250,
+    duration: 239,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-MXxAUC-P9X4/XbcfWxhQgzI/AAAAAAAABjc/m0J4jGdcrFsHwttYJZI8p7dgZOSwTNKKACLcBGAsYHQ/s1600/yelkovan.jpg',
@@ -145,7 +145,7 @@ const songList = [
   },
   {
     title: 'Mustafa Ceceli - Bedel',
-    duration: 250,
+    duration: 200,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-AF_IITns9KQ/XbcfV41JkQI/AAAAAAAABjU/NxjBLi894lQPHq0G2G5NxA8NMKLWyU2hwCLcBGAsYHQ/s1600/mustafa-ceceli-bedel.jpg',
@@ -155,7 +155,7 @@ const songList = [
   },
   {
     title: 'Cem Belevi - Farkında mısın',
-    duration: 250,
+    duration: 214,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/--Z3IsTVMXKg/XbclsqvvgxI/AAAAAAAABj4/LW2j9BNg5aIzc3xe7K7e2o5XnOSxArkLgCLcBGAsYHQ/s1600/farkinda-misin.jpg',
@@ -166,7 +166,7 @@ const songList = [
 ,
   {
     title: 'Irmak Arıcı - Mevzum Derin',
-    duration: 250,
+    duration: 130,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-oYxW_-f07Bo/XbgWZorlo0I/AAAAAAAABkg/K3Autx8BY3oy721isB47bdPaLIA7TdykACLcBGAsYHQ/s1600/mevzum-derin.jpg',
@@ -177,7 +177,7 @@ const songList = [
 ,
   {
     title: 'Can Bonomo - Ruhum Bela',
-    duration: 250,
+    duration: 165,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-kOkaljuOEb4/XbgWZnwXiKI/AAAAAAAABkk/zsjJC8pGb1EFCQJ4kY9PmqSlRz1UHn8yACLcBGAsYHQ/s1600/ruhum-bela.jpg',
@@ -188,7 +188,7 @@ const songList = [
 ,
   {
     title: 'İlyas Yalçıntaş - Farzet',
-    duration: 250,
+    duration: 252,
     album: {
       art: {
         square: 'https://1.bp.blogspot.com/-yk_TFMY4AnI/XbgWZrv5g7I/AAAAAAAABko/75MkbJvS_l8vE1CGHUne5fXoBOQJ_4VGgCLcBGAsYHQ/s1600/farzet.jpg',
@@ -199,7 +199,7 @@ const songList = [
 ,
   {
     title: 'Mehmet Erdem - Sen De Vur Gülüm',
-    duration: 250,
+    duration: 275,
     album: {
       art: {
         square: '',
