@@ -69,6 +69,15 @@ const songList = [
     duration: 190,
     album: {
       art: {
+        square: 'https://1.bp.blogspot.com/-sxKRBE0qkgY/XbnajAgfv-I/AAAAAAAABlk/tP8AXvLdsg88ZrKphF8KVoTmqpY5tGEygCLcBGAsYHQ/s1600/gokce-bu-kalp.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsSykSvKQP6MbVqyBYs%2F-LsSymu4ozhapqFg36AP%2Fbukalp.mp3?alt=media&token=ff2ae573-f990-442b-bb0b-a3d74908f7ec`,
+  },{
+    title: 'Gökçe - Bu Kalp',
+    duration: 218,
+    album: {
+      art: {
         square: 'https://1.bp.blogspot.com/-oEF03WfStco/XbnWvTSG9oI/AAAAAAAABlQ/HVnbBPeEiTo1AkItSKiDT5Hz6Ovj3DztQCLcBGAsYHQ/s1600/tek.jpg',
       },
     },
