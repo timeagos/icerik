@@ -69,19 +69,19 @@ const songList = [
     duration: 190,
     album: {
       art: {
-        square: 'https://1.bp.blogspot.com/-sxKRBE0qkgY/XbnajAgfv-I/AAAAAAAABlk/tP8AXvLdsg88ZrKphF8KVoTmqpY5tGEygCLcBGAsYHQ/s1600/gokce-bu-kalp.jpg',
+        square: 'https://1.bp.blogspot.com/-oEF03WfStco/XbnWvTSG9oI/AAAAAAAABlQ/HVnbBPeEiTo1AkItSKiDT5Hz6Ovj3DztQCLcBGAsYHQ/s1600/tek.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsSykSvKQP6MbVqyBYs%2F-LsSymu4ozhapqFg36AP%2Fbukalp.mp3?alt=media&token=ff2ae573-f990-442b-bb0b-a3d74908f7ec`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsSvGpmVXOqzTnWVKBF%2F-LsSvIjVxOmBfUKfoj6n%2Ftek.mp3?alt=media&token=80dba39f-4772-46f1-923c-0e951d98c8b0`,
   },{
     title: 'Gökçe - Bu Kalp',
     duration: 218,
     album: {
       art: {
-        square: 'https://1.bp.blogspot.com/-oEF03WfStco/XbnWvTSG9oI/AAAAAAAABlQ/HVnbBPeEiTo1AkItSKiDT5Hz6Ovj3DztQCLcBGAsYHQ/s1600/tek.jpg',
+        square: 'https://1.bp.blogspot.com/-sxKRBE0qkgY/XbnajAgfv-I/AAAAAAAABlk/tP8AXvLdsg88ZrKphF8KVoTmqpY5tGEygCLcBGAsYHQ/s1600/gokce-bu-kalp.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsSvGpmVXOqzTnWVKBF%2F-LsSvIjVxOmBfUKfoj6n%2Ftek.mp3?alt=media&token=80dba39f-4772-46f1-923c-0e951d98c8b0`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsSykSvKQP6MbVqyBYs%2F-LsSymu4ozhapqFg36AP%2Fbukalp.mp3?alt=media&token=ff2ae573-f990-442b-bb0b-a3d74908f7ec`,
   },{
     title: 'Bilal SONSES - Neyim Olacaktın?',
     duration: 174,
