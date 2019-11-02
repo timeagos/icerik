@@ -65,6 +65,15 @@ const audio = document.getElementById('player');
  */
 const songList = [
 {
+    title: 'Manuş Baba - Onun Bir Sevdiği Var',
+    duration: 244,
+    album: {
+      art: {
+        square: 'https://2.bp.blogspot.com/-Ve4CUeIaxCM/Xb3mt9T4pKI/AAAAAAAABmQ/uzBdh0xISHom_vAv1GaYEp9R-dLgxxx-wCLcBGAsYHQ/s1600/onun-bir-sevdigi-var.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LshmbjHYV97e43vEUma%2F-LshmfR5-cGJgBbi09Qf%2Fonunbirsevdigivar.mp3?alt=media&token=8f870f44-fa47-4253-9e1c-7d4e7ef33c1e`,
+  },{
     title: 'Tuğba Yurt - Taş Yürek',
     duration: 227,
     album: {
