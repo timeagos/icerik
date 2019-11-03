@@ -65,6 +65,15 @@ const audio = document.getElementById('player');
  */
 const songList = [
 {
+    title: 'İkiye On Kala - Bütün Istanbul Biliyo',
+    duration: 150,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-PzLLb0mi2QE/Xb87ttQ-hyI/AAAAAAAABmc/7O0wYqSOYlEGdPaHr5_uka2qWuZ53XAjgCLcBGAsYHQ/s1600/butun-istanbul-biliyo.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsmzxSKbvBeUI_aUo96%2F-Lsn-5IEezLjkMZXJS5W%2Fbutunistanbul.mp3?alt=media&token=80529419-4097-4711-a61a-57c78d2455d7`,
+  },{
     title: 'Manuş Baba - Onun Bir Sevdiği Var',
     duration: 244,
     album: {
