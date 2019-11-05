@@ -65,6 +65,15 @@ const audio = document.getElementById('player');
  */
 const songList = [
 {
+    title: 'İskender Paydaş - Kağızman',
+    duration: 160,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-cEeO1vvi4TM/XcFaV1PZ80I/AAAAAAAABng/5IDBg4CF51An7VZg5Dg8jmLigZCuAoRjQCLcBGAsYHQ/s1600/kagizman.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsvGq5pbViCVw-I4rym%2F-LsvGtMlL6mjrMldOkSK%2Fkagizman.mp3?alt=media&token=f968c0e6-7ceb-4695-840a-9c0b515c558b`,
+  },{
     title: 'İkiye On Kala - Bütün Istanbul Biliyo',
     duration: 150,
     album: {
