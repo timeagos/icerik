@@ -65,6 +65,15 @@ const audio = document.getElementById('player');
  */
 const songList = [
 {
+    title: 'Deniz Seki - Nereden Bileceksiniz',
+    duration: 366,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-vKzAxEnR7kM/XcMCSbzBMSI/AAAAAAAABoI/bS0P-bdBMoQPyrDm7Vx50hZRP6RYSksKgCLcBGAsYHQ/s1600/deniz-seki-nereden-bileceksiniz.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-Lt0xYHgcSo4LBs_r-F-%2F-Lt0xabCKATvuoMUpv-Z%2Fneredenbileceksiniz.mp3?alt=media&token=294eaa5a-b267-49f6-a1b7-afa87d5e4e0d`,
+  },{
     title: 'İskender Paydaş - Kağızman',
     duration: 160,
     album: {
