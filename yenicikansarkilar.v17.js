@@ -90,7 +90,7 @@ const songList = [
         square: 'https://1.bp.blogspot.com/-kK12Xsw7H5Q/XcWfihm39mI/AAAAAAAABrk/zOb5gQudceoQLyEI7PloN8Ln56XFBtJlgCLcBGAsYHQ/s1600/degistim.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtB8onx2UJk28iktayB%2F-LtB9P51sLrFAaeeE-kc%2Fdegistim.mp3?alt=media&token=af5b65fe-2626-4a13-b856-7995cd1b2cb6`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtBCqZDUEDAvPdgAzK0%2F-LtBDV0rj-p0FN4nPFgo%2Fdegistim.mp3?alt=media&token=0de30d30-b020-498c-a967-5b8d4b22dd06`,
   },{
     title: 'Berdan Mardini - Aşktan Geberiyorum',
     duration: 290,
