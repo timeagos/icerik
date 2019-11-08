@@ -65,6 +65,34 @@ const audio = document.getElementById('player');
  */
 const songList = [
 {
+    title: 'Fatma Turgut & Can Baydar - Yangın Yeri',
+    duration: 169,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-eOqTMtpkXWA/XcWfi7gl0NI/AAAAAAAABro/Rn-IXiUYp5sDzW1leF6BTfEkujB3Mm_3QCLcBGAsYHQ/s1600/yangin-yeri.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtB8onx2UJk28iktayB%2F-LtB9uNi3uZTlmgIR7x7%2Fyanginyeri.mp3?alt=media&token=a5c377f4-c371-4a0e-9d9d-c9c366c49d48`,
+  },{
+    title: 'Ümit Besen & Gülden - Değiştim',
+    duration: 292,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-kK12Xsw7H5Q/XcWfihm39mI/AAAAAAAABrk/zOb5gQudceoQLyEI7PloN8Ln56XFBtJlgCLcBGAsYHQ/s1600/degistim.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtB8onx2UJk28iktayB%2F-LtB9P51sLrFAaeeE-kc%2Fdegistim.mp3?alt=media&token=af5b65fe-2626-4a13-b856-7995cd1b2cb6`,
+  },{
+    title: 'Berdan Mardini - Aşktan Geberiyorum',
+    duration: 290,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-kTw9K-_gV9c/XcWfiopJIYI/AAAAAAAABrg/yDUsFEr8YoAprmr3vN4DH4xRlMAa5qbWQCLcBGAsYHQ/s1600/asktan-geberiyorum.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtB8onx2UJk28iktayB%2F-LtB8sNA2ESC5Kje4BRZ%2Fasktangeberiyorum.mp3?alt=media&token=51703d37-2091-4c43-a015-ebfa9231f1ce`,
+  },
+{
     title: 'Deniz Seki - Nereden Bileceksiniz',
     duration: 366,
     album: {
