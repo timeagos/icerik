@@ -65,6 +65,15 @@ const audio = document.getElementById('player');
  */
 const songList = [
 {
+    title: 'Oğuz Berkay Fidan - Kül',
+    duration: 178,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-_ztkWb4cmR4/XcWhg2uAvbI/AAAAAAAABsI/gh_9nddpYFAhpvtQwUhWmv8xdctfOWT-wCLcBGAsYHQ/s1600/kul.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtBBBAg_ntsIPYbwoR6%2F-LtBC8rvTfi7-L-Yr_Bu%2Fkul.mp3?alt=media&token=463ea90b-feb5-42b2-91a8-cf4cd158adac`,
+  },{
     title: 'Fatma Turgut & Can Baydar - Yangın Yeri',
     duration: 169,
     album: {
