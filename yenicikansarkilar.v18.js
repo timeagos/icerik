@@ -65,14 +65,14 @@ const audio = document.getElementById('player');
  */
 const songList = [
 {
-    title: 'Oğuz Berkay Fidan - Kül',
-    duration: 178,
+    title: 'Feride Hilal Akın - Kim',
+    duration: 150,
     album: {
       art: {
-        square: 'https://1.bp.blogspot.com/-_ztkWb4cmR4/XcWhg2uAvbI/AAAAAAAABsI/gh_9nddpYFAhpvtQwUhWmv8xdctfOWT-wCLcBGAsYHQ/s1600/kul.jpg',
+        square: 'https://1.bp.blogspot.com/-OrhmPILoJRk/XccDiMGrvBI/AAAAAAAABss/08Y_1naDg_EjUf7UjKduQAe-S41h8ppeQCLcBGAsYHQ/s1600/kim.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtBBBAg_ntsIPYbwoR6%2F-LtBC8rvTfi7-L-Yr_Bu%2Fkul.mp3?alt=media&token=463ea90b-feb5-42b2-91a8-cf4cd158adac`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtGaIHHXRSPStcUybRP%2F-LtGbVgnRwiB-JetQL94%2Fkim.mp3?alt=media&token=3e5fd084-043b-414e-9fd6-b8054b03dc35`,
   },{
     title: 'Fatma Turgut & Can Baydar - Yangın Yeri',
     duration: 169,
@@ -83,6 +83,24 @@ const songList = [
     },
     url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtB8onx2UJk28iktayB%2F-LtB9uNi3uZTlmgIR7x7%2Fyanginyeri.mp3?alt=media&token=a5c377f4-c371-4a0e-9d9d-c9c366c49d48`,
   },{
+    title: 'Eflatun - En Güzel Ben Sevdim',
+    duration: 264,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-XSclkDSPviU/XccDiNWs4rI/AAAAAAAABsw/JJEu5Ezrd2AFPXziW0cbklEI1zibqcX7ACLcBGAsYHQ/s1600/en-guzel-ben-sevdim.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtGaIHHXRSPStcUybRP%2F-LtGakMfLMFCho54Zfdm%2Fenguzelbensevdim.mp3?alt=media&token=8d44d8a6-a881-4703-8c86-4ad7e912d06d`,
+  },{
+    title: 'Oğuz Berkay Fidan - Kül',
+    duration: 178,
+    album: {
+      art: {
+        square: 'https://1.bp.blogspot.com/-_ztkWb4cmR4/XcWhg2uAvbI/AAAAAAAABsI/gh_9nddpYFAhpvtQwUhWmv8xdctfOWT-wCLcBGAsYHQ/s1600/kul.jpg',
+      },
+    },
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtBBBAg_ntsIPYbwoR6%2F-LtBC8rvTfi7-L-Yr_Bu%2Fkul.mp3?alt=media&token=463ea90b-feb5-42b2-91a8-cf4cd158adac`,
+  },{
     title: 'Ümit Besen & Gülden - Değiştim',
     duration: 292,
     album: {
@@ -90,7 +108,7 @@ const songList = [
         square: 'https://1.bp.blogspot.com/-kK12Xsw7H5Q/XcWfihm39mI/AAAAAAAABrk/zOb5gQudceoQLyEI7PloN8Ln56XFBtJlgCLcBGAsYHQ/s1600/degistim.jpg',
       },
     },
-    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtBCqZDUEDAvPdgAzK0%2F-LtBDV0rj-p0FN4nPFgo%2Fdegistim.mp3?alt=media&token=0de30d30-b020-498c-a967-5b8d4b22dd06`,
+    url: `https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtB8onx2UJk28iktayB%2F-LtB9P51sLrFAaeeE-kc%2Fdegistim.mp3?alt=media&token=af5b65fe-2626-4a13-b856-7995cd1b2cb6`,
   },{
     title: 'Berdan Mardini - Aşktan Geberiyorum',
     duration: 290,
