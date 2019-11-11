@@ -4,6 +4,7 @@ var iconImage = '';
 AP.init({
   playList: [
     {'icon': iconImage, 'title': 'Emre Kaya - Nasıl Diye Sorma', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsvYfMpvOD2kHYaHOH3%2F-LsvYjfFY14MkRI-EJuR%2Fnasildiyesormaakstk.mp3?alt=media&token=59f59660-fd1f-41a0-8a0a-e748087adcc1'},
+    {'icon': iconImage, 'title': 'Gülben Ergen - Müsaadenle', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtQTfud6r9opOe9tjoq%2F-LtQTn0moGOxyZJdEWUY%2Fmusadenleakstk.mp3?alt=media&token=695625ca-ba55-4e0c-8c9a-cb008de38fe8'},
     {'icon': iconImage, 'title': 'Tuğçe Kandemir - Gördüğüme Sevindim', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LpyIet50UCjwiUhApGi%2F-LpyIlauQkIor2l5l8Ed%2Fgordugumesevindimakstk.mp3?alt=media&token=27312526-88c2-4c0c-9fd0-607725134bf0'},
     {'icon': iconImage, 'title': 'Ziynet Sali - Bana da Söyle', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-Ll1K0_Upj-qgqI7QmoX%2F-Ll1K40_CkFzyq5qZMTI%2Fbanadasoyleakus.mp3?alt=media&token=4e8c2164-909c-4daf-aeaf-ca0071203b26'},
     {'icon': iconImage, 'title': 'Funda Arar - Çık Aradan', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-Ll1K0_Upj-qgqI7QmoX%2F-Ll1KEJYcPpsDU7y-Gkp%2Fcikararadanremix.mp3?alt=media&token=1266ca95-b11c-4d73-8426-994dde08fef8'},
