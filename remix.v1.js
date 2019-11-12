@@ -3,6 +3,7 @@
 var iconImage = '';
 AP.init({
   playList: [
+    {'icon': iconImage, 'title': 'Tuğçe Haşimoğlu - Hasretinle Yandı Gönlüm', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtVAt2crySpXPlBYePb%2F-LtVCey_TQHBcE_JCW-2%2Fhasretinleremix.mp3?alt=media&token=e5c91ef0-cb6e-4a7c-b53e-a0bc7206628f'},
     {'icon': iconImage, 'title': 'Ayla Çelik - Daha Bi Aşık (Selami Bilgiç)', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsO0yD0qYXz5lSlBvD9%2F-LsO1VqQyxf3yvIGmfgW%2Fdahabiasikrmx.mp3?alt=media&token=15f084b3-410b-4f72-a71e-c6e89ef7828b:'},
     {'icon': iconImage, 'title': 'Can Oflaz - Aşk Mı Meşk Mi (Loop Versiyon)', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsO0yD0qYXz5lSlBvD9%2F-LsO11so2k3K2kZ3JKah%2Faskmimeskmirmx.mp3?alt=media&token=31127f66-54f5-4d01-8795-3d6b85459f7d'},
     {'icon': iconImage, 'title': 'Gökcan Sanlıman - Aramızda (By Dogac)', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LqXU4oA57ftirhNROvH%2F-LqXUdUHYwVft7JjLgAA%2Faramizdarmx.mp3?alt=media&token=5d65834c-22dc-417d-a232-a8c5350675ee'},
