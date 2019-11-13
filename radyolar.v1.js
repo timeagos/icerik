@@ -8,7 +8,7 @@ AP.init({
     {'icon': iconImage, 'title': 'Kral Pop Radyo', 'file': 'http://kralpopwmp.radyotvonline.com:80/;stream.nsv'},
     {'icon': iconImage, 'title': 'Pal Fm', 'file': 'http://shoutcast.radyogrup.com:1030/;stream.nsv'},
     {'icon': iconImage, 'title': 'Slow Türk', 'file': 'https://radyo.dogannet.tv/slowturk'},
-    {'icon': iconImage, 'title': 'Number One Türk', 'file': 'https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e30cf8d28e_1/playlist.m3u8'},
+    {'icon': iconImage, 'title': 'Number One Türk', 'file': 'https://20723.live.streamtheworld.com/NUMBER1TURK_FM_SC?/;stream.mp3'},
     {'icon': iconImage, 'title': 'Joy Türk', 'file': 'https://17733.live.streamtheworld.com/JOY_TURK_SC'},
     {'icon': iconImage, 'title': 'Mydonose Türk', 'file': 'https://17753.live.streamtheworld.com/DANSTURK_SC'},
     {'icon': iconImage, 'title': 'Metro Fm', 'file': 'https://17773.live.streamtheworld.com/METRO_FM_SC'},
@@ -16,7 +16,7 @@ AP.init({
     {'icon': iconImage, 'title': 'Virgin Radio', 'file': 'https://17773.live.streamtheworld.com/VIRGIN_RADIO_SC'},
     {'icon': iconImage, 'title': 'Power Fm', 'file': 'https://listen.powerapp.com.tr/powerfm/mpeg/icecast.audio?/;stream.nsv'},
     {'icon': iconImage, 'title': 'Pal Station', 'file': 'http://shoutcast.radyogrup.com:1020/;stream.mp3'},
-    {'icon': iconImage, 'title': 'Number 1 Fm', 'file': 'https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2f95dcb16_1/playlist.m3u8'},
+    {'icon': iconImage, 'title': 'Number 1 Fm', 'file': 'https://20043.live.streamtheworld.com/NUMBER1FMAAC.aac'},
     {'icon': iconImage, 'title': 'Radyo Mydonose', 'file': 'https://17733.live.streamtheworld.com/RADIO_MYDONOSE_SC'},
 
   ]
