@@ -11,6 +11,7 @@ AP.init({
     {'icon': iconImage, 'title': 'Derya Uluğ - Ah Zaman', 'file': 'https://www.tmb.tv/uploads/DERYAULUG.mp3'},
     {'icon': iconImage, 'title': 'Irmak Arıcı & Mustafa Ceceli - Mühür', 'file': 'https://www.tmb.tv/uploads/IRMAK%20MUSTAFA.mp3'},
     {'icon': iconImage, 'title': 'Yalın - Deme Bana Yokum', 'file': 'https://www.tmb.tv/uploads/YALNNS.mp3'},
+    {'icon': iconImage, 'title': 'Aynur Aydın - Gel Güzelim', 'file': 'https://www.tmb.tv/uploads/AYNRR.mp3'},
     {'icon': iconImage, 'title': 'Çolpon Talipbek - Pesnya Dlya Tebya', 'file': 'https://www.tmb.tv/uploads/COLPONS.mp3'},
     {'icon': iconImage, 'title': 'Mustafa Ceceli - Bedel', 'file': 'https://www.tmb.tv/uploads/CECELI.mp3'},
     {'icon': iconImage, 'title': 'Simge - Yalnız Başına', 'file': 'https://www.tmb.tv/uploads/SMGE.mp3'},
