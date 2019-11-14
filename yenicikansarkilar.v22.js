@@ -4,7 +4,8 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
-  { 'icon': iconImage, 'title': 'Bora Duran - Başgan', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-Lt_BhuoQdhOyQ_0ByKV%2F-Lt_BmDsnCL1zc56v7tk%2Fbasgan.mp3?alt=media&token=192e675b-4754-4081-b537-4721696dcb42' },
+  { 'icon': iconImage, 'title': 'Haluk Levent - Sen Olasın', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-Lte4B1Eod7-iFT6VzPt%2F-Lte4Go8DhWTUyEXnrrY%2Fsenolasin.mp3?alt=media&token=e7378f3a-0e6a-4493-a91c-02bf8d603929' },
+ { 'icon': iconImage, 'title': 'Bora Duran - Başgan', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-Lt_BhuoQdhOyQ_0ByKV%2F-Lt_BmDsnCL1zc56v7tk%2Fbasgan.mp3?alt=media&token=192e675b-4754-4081-b537-4721696dcb42' },
   { 'icon': iconImage, 'title': 'Mustafa Sandal & Zeynep Bastık - Mod', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtVr6xLyD97QrICAHU8%2F-LtVrIHqQw5CvoM4DSXv%2Fmod.mp3?alt=media&token=c6d0ad4b-0f64-41c0-bdb5-2992e9b99cf8' },
   { 'icon': iconImage, 'title': 'Feride Hilal Akın - Kim', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtGaIHHXRSPStcUybRP%2F-LtGbVgnRwiB-JetQL94%2Fkim.mp3?alt=media&token=3e5fd084-043b-414e-9fd6-b8054b03dc35' },
   { 'icon': iconImage, 'title': 'Fatma Turgut & Can Baydar - Yangın Yeri', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtB8onx2UJk28iktayB%2F-LtB9uNi3uZTlmgIR7x7%2Fyanginyeri.mp3?alt=media&token=a5c377f4-c371-4a0e-9d9d-c9c366c49d48' },
