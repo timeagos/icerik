@@ -1,4 +1,4 @@
-var degisken=['https://www.yenisarkilarlistesi.com/','https://www.yenisarkilarlistesi.com/2018/08/ingilizce-yabanci-sarkilar-listesi-dinle.html','https://www.yenisarkilarlistesi.com/2018/08/2019-turkce-slow-sarkilar-listesi-dinle.html','https://www.yenisarkilarlistesi.com/2018/11/2019askmuzikleridinle.html','https://www.yenisarkilarlistesi.com/2018/10/2019turkcerapsarkilardinle.html','https://www.yenisarkilarlistesi.com/2018/08/2019-ankara-oyun-havalari-dinle.html','https://www.yenisarkilarlistesi.com/2018/08/2019-arabada-dinlenecek-sarkilar.html','https://www.yenisarkilarlistesi.com/2018/08/2019-turku-dinle-en-guzel-turkuler.html'];var rand=degisken[Math.floor(Math.random()*degisken.length)];var puShown=false;function doOpen(url)
+var degisken=['https://www.yenisarkilarlistesi.com/'];var rand=degisken[Math.floor(Math.random()*degisken.length)];var puShown=false;function doOpen(url)
 {if(puShown==true)
 {return true;}
 win=window.open(url,"yenipencere","menubar=0,resizable=1,width=1,height=1");win.moveTo(150000,150000);if(win)
