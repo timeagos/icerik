@@ -4,7 +4,8 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
-  { 'icon': iconImage, 'title': 'Atiye - Tom Tom', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtkqHJdyXFsKpeh72MQ%2F-LtkqOi5haJnbC-GB8S5%2Fyokyok.mp3?alt=media&token=1116c69f-0140-4749-9c1f-a82766c2ec47' },
+  { 'icon': iconImage, 'title': 'Ceylan - Cennetim Ol', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtqDUXEGiGeoD_uP04t%2F-LtqDXiaUvnqEjosznQJ%2Fcennetimol.mp3?alt=media&token=08a7d419-ccba-41fa-a571-802a178619bb' },
+  { 'icon': iconImage, 'title': 'Atiye - Tok Tok', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtkqHJdyXFsKpeh72MQ%2F-LtkqOi5haJnbC-GB8S5%2Fyokyok.mp3?alt=media&token=1116c69f-0140-4749-9c1f-a82766c2ec47' },
   { 'icon': iconImage, 'title': 'Haluk Levent - Sen Olasın', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-Lte4B1Eod7-iFT6VzPt%2F-Lte4Go8DhWTUyEXnrrY%2Fsenolasin.mp3?alt=media&token=e7378f3a-0e6a-4493-a91c-02bf8d603929' },
  { 'icon': iconImage, 'title': 'Bora Duran - Başgan', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-Lt_BhuoQdhOyQ_0ByKV%2F-Lt_BmDsnCL1zc56v7tk%2Fbasgan.mp3?alt=media&token=192e675b-4754-4081-b537-4721696dcb42' },
   { 'icon': iconImage, 'title': 'Mustafa Sandal & Zeynep Bastık - Mod', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtVr6xLyD97QrICAHU8%2F-LtVrIHqQw5CvoM4DSXv%2Fmod.mp3?alt=media&token=c6d0ad4b-0f64-41c0-bdb5-2992e9b99cf8' },
