@@ -4,6 +4,9 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
+  { 'icon': iconImage, 'title': 'Bengü - Günaydın', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LuInUmRDnkJLU0dHuTX%2F-LuIoJc3t6zmqTUf3LmM%2Fgunaydin.mp3?alt=media&token=0100abdd-ff57-443b-9ed5-09082dfafc93' },
+  { 'icon': iconImage, 'title': 'Gökhan Türkmen - Sır ', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LuInUmRDnkJLU0dHuTX%2F-LuInuwRgltJqQt_2hIo%2Fsir.mp3?alt=media&token=3eab0b45-853f-450f-839b-860fc73949e5' },
+  { 'icon': iconImage, 'title': 'Gülden - Yakarım İstanbulu', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LuInUmRDnkJLU0dHuTX%2F-LuInXLMHhQP3sHaLJS9%2Fyakarimistanbulu.mp3?alt=media&token=b46a51d6-b13e-4bfe-914b-3ef20f1e40e8' },
   { 'icon': iconImage, 'title': 'Murat Dalkılıç - Afeta', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LuD2x75s0Up1VrPTWlg%2F-LuD3AcsnMjyVC6qlWAn%2Faftea.mp3?alt=media&token=21c0abbb-67b7-4a94-ab90-ec2bb075814b' },
   { 'icon': iconImage, 'title': 'Derya Uluğ - Göremedim Bir De Sen Bak', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtzuKcagxIPA7h900zc%2F-LtzulYbRzfwE5PnbG2K%2Fgoremedimbidesen.mp3?alt=media&token=b577c9b9-95e6-4ad7-a518-1e741f7f7499' },
   { 'icon': iconImage, 'title': 'Ceylan - Cennetim Ol', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LtqDUXEGiGeoD_uP04t%2F-LtqDXiaUvnqEjosznQJ%2Fcennetimol.mp3?alt=media&token=08a7d419-ccba-41fa-a571-802a178619bb' },
