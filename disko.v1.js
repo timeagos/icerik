@@ -3,6 +3,7 @@
 var iconImage = '';
 AP.init({
   playList: [
+    {'icon': iconImage, 'title': 'David Guetta & MORTEN - Make It To Heaven', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LuiK7xqDrZVAZDfQTw1%2F-LuiKDUjZ7dV265l8mrN%2Fmakeittohe.mp3?alt=media&token=6892a288-1753-4562-b579-b39e557e26af'},
     {'icon': iconImage, 'title': 'Aaron Smith - Dancin (Krono Remix)', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LoBHI-Fhl9txJxUZ6PM%2F-LoBHMwJaO154qIPL56Q%2Fdancin.mp3?alt=media&token=ca3066e1-1b76-4fb7-a664-f5cdc11c3233'},
     {'icon': iconImage, 'title': 'Thomas Newson - Ragga', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LN6pmp-hlaXw_W0OEcN%2F-LS6vmSazmro3ESo5m-q%2F-LS6vx-ET15oKVPf6n5Z%2Fragga.mp3?alt=media&token=74bdcec8-3db0-4748-b1be-d72a1d601ba3'},
     {'icon': iconImage, 'title': 'Dannic - Bump N Roll', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LqQ8AShT69i-284NJrI%2F-LqQ8igOHgviY7BC392Z%2Fbumpnroll.mp3?alt=media&token=e588d5e9-4aaa-4165-9c02-d42bd3363ce3'},
