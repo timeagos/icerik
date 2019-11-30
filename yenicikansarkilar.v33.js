@@ -4,6 +4,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
+    {'icon': iconImage, 'title': 'KimbuReyhan - Issız Duvarlar', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-Luy9ikQmiR2xhW7cD5b%2F-Luy9m9uVsB9AYuWU2jU%2Fissizduvarlar.mp3?alt=media&token=93d10ea7-5bff-4fdf-928a-7adaffd20cc5'},
   { 'icon': iconImage, 'title': 'Hande Ünsal - Daha İyi', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LubtVxnNS4lHf8YdJmK%2F-LubtdcAFm4Wpa5LZR_8%2Fdahaiyi.mp3?alt=media&token=c67ede8e-f7b9-44a1-a824-ec4cae5c0998' },
   { 'icon': iconImage, 'title': 'Kahraman Deniz - Uzak Gelecek', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LuY5t9waKWwu7IQAr1F%2F-LuY6T0mtKb4n0YCoI0Q%2Fuzakgelecek.mp3?alt=media&token=1924edfe-adb7-48f8-a00b-60765595cf71' },
   { 'icon': iconImage, 'title': 'Gökcan Sanlıman - Yeter', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LuY5t9waKWwu7IQAr1F%2F-LuY66uiEvDV96WZcz7P%2Fyeter.mp3?alt=media&token=da717d6c-427d-4b06-a568-1ca27c16f6a4' },
