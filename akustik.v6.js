@@ -3,6 +3,10 @@
 var iconImage = '';
 AP.init({
   playList: [
+    {'icon': iconImage, 'title': 'Tuğba Yurt  Vurkaç', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LvWNnk7MkQZzN2HxdP4%2F-LvWUsIdLU2_dfBYFRwN%2Fvurkacakstk.mp3?alt=media&token=36c78876-06f2-43ef-bebf-155b16f42015'},
+    {'icon': iconImage, 'title': 'Bilal SONSES - Cennetten Çiçek', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LvWNnk7MkQZzN2HxdP4%2F-LvWW-P6WD0HVmgu6MnD%2Fcennettenalstk.mp3?alt=media&token=3933be72-81fc-4641-9f5c-0b5aa47ccd05'},
+    {'icon': iconImage, 'title': 'Oğuzhan Koç - Aşkla Aynı Değil', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LvWNnk7MkQZzN2HxdP4%2F-LvWVBMDc6Xvmx7q1uLI%2Faskaaynidglakstk.mp3?alt=media&token=f8aa8d45-531a-4554-9390-35a8b7f74f28'},
+    {'icon': iconImage, 'title': 'Oğuzhan Koç - Beni İyi Sanıyorlar', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LvWNnk7MkQZzN2HxdP4%2F-LvWVYhIemk9JMcu1c2S%2Fbeniyisanakstk.mp3?alt=media&token=1fef7f1b-2cfd-4ddd-97d3-6de641dcc354'},
     {'icon': iconImage, 'title': 'Ufuk Beydemir - Ölüme Yalvardım', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LuYFpvWW3zBem4iCWHF%2F-LuYFxVbt4uD8j6pqLrA%2Folumeyalvardimakstk.mp3?alt=media&token=4202f55b-2047-4b01-9eed-13d85d051c78'},
     {'icon': iconImage, 'title': 'Bilal Sonses & Mustafa Ceceli - Bedel', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-Lta5CGBBTMH5ROQ0c7q%2F-Lta5F-_pg1NiR90Hj7Q%2Fbedelakstk.mp3?alt=media&token=90b4868e-e98e-421c-9142-7414f9c27429'},
     {'icon': iconImage, 'title': 'Emre Kaya - Nasıl Diye Sorma', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LsvYfMpvOD2kHYaHOH3%2F-LsvYjfFY14MkRI-EJuR%2Fnasildiyesormaakstk.mp3?alt=media&token=59f59660-fd1f-41a0-8a0a-e748087adcc1'},
