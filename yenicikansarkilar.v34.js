@@ -4,6 +4,10 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
+    {'icon': iconImage, 'title': 'Yaprak Çamlıca - Masal Geceler', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LvWM5Z8_NGqeSqBIB_h%2F-LvWMbrHy1bU_LGO_9ZA%2Fmasalgeceler.mp3?alt=media&token=4ee8bd5b-fa7c-469b-9829-b82274ad8783'},
+    {'icon': iconImage, 'title': 'Tan Taşçı - Git Gidebilirsen', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LvWM5Z8_NGqeSqBIB_h%2F-LvWNLzQJAsMxJa6pn-F%2Fgitgidebilirsen.mp3?alt=media&token=a926bdb5-cc01-4232-8676-253c64298567'},
+    {'icon': iconImage, 'title': 'Özcan Deniz - Aşk', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LvWM5Z8_NGqeSqBIB_h%2F-LvWMCB8iPcVNzA4nE7w%2Fozcanask.mp3?alt=media&token=356f2e6a-f4b0-4035-a25b-8486ad26bf9d'},
+    {'icon': iconImage, 'title': 'Tuğba Özerk - Hergele', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LvWM5Z8_NGqeSqBIB_h%2F-LvWMtFqszI1Gn1hOmHi%2Fhergele.mp3?alt=media&token=3f73630c-0e93-4d7a-bffa-5ae2a006a05e'},
     {'icon': iconImage, 'title': 'KimbuReyhan - Issız Duvarlar', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-Luy9ikQmiR2xhW7cD5b%2F-Luy9m9uVsB9AYuWU2jU%2Fissizduvarlar.mp3?alt=media&token=93d10ea7-5bff-4fdf-928a-7adaffd20cc5'},
   { 'icon': iconImage, 'title': 'Hande Ünsal - Daha İyi', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LubtVxnNS4lHf8YdJmK%2F-LubtdcAFm4Wpa5LZR_8%2Fdahaiyi.mp3?alt=media&token=c67ede8e-f7b9-44a1-a824-ec4cae5c0998' },
   { 'icon': iconImage, 'title': 'Kahraman Deniz - Uzak Gelecek', 'file': 'https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lpdr52D2axjjm7pA8Aa%2F-LuY5t9waKWwu7IQAr1F%2F-LuY6T0mtKb4n0YCoI0Q%2Fuzakgelecek.mp3?alt=media&token=1924edfe-adb7-48f8-a00b-60765595cf71' },
